@@ -10,4 +10,8 @@ int main(void){
     std::cout<<"Ingresar segundo lado"<<std::endl;
     std::cin>>l2;
     std::cout<<"Lado 2 = "<<l2<<std::endl;
+    float H;
+    std::cout<<"Ingresar hipotenusa"<<std::endl;
+    std::cin>>H;
+    std::cout<<"Hipotenusa = "<<H<<std::endl;
 }
