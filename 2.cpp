@@ -14,4 +14,10 @@ int main(void){
     std::cout<<"Ingresar hipotenusa"<<std::endl;
     std::cin>>H;
     std::cout<<"Hipotenusa = "<<H<<std::endl;
+    if(pow(l1,2)+pow(l2,2)==pow(H,2)){
+        std::cout<<"SI pueden representar los lados de un triangulo rectangulo"<<std::endl;
+    }
+    else{
+        std::cout<<"NO pueden representar los lados de un triangulo rectangulo"<<std::endl;
+    }
 }
