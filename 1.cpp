@@ -10,4 +10,6 @@ int main(void){
     std::cout<<"Diametro D = "<<D<<std::endl;
     float P = 2*M_PI*R;
     std::cout<<"Perimetro P = "<<P<<std::endl;
+    float A = pow(R,2)*M_PI;
+    std::cout<<"Area A = "<<A<<std::endl;
 }
