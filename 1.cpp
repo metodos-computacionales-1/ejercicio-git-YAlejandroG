@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 int main(void){
     int R;
@@ -7,4 +8,6 @@ int main(void){
     std::cout<<"Ha ingresado un valor de radio R = "<<R<<std::endl;
     int D = 2*R;
     std::cout<<"Diametro D = "<<D<<std::endl;
+    float P = 2*M_PI*R;
+    std::cout<<"Perimetro P = "<<P<<std::endl;
 }
